@@ -1,44 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>S3 Deployment Test</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #4e73df, #1cc88a);
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
-        .card {
-            background: rgba(0, 0, 0, 0.3);
-            padding: 40px;
-            border-radius: 12px;
-        }
-        h1 {
-            margin-bottom: 10px;
-        }
-        p {
-            margin: 5px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Gotcha</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      background: black;
+    }
+
+    img {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
-    <div class="card">
-        <h1>🚀 Deployment Successful!</h1>
-        <p>Your website is being served from Amazon S3.</p>
-        <p>If you see this page, GitHub Actions is working correctly.</p>
-        <p><strong>Time:</strong> <span id="time"></span></p>
-    </div>
-
-    <script>
-        document.getElementById("time").textContent = new Date().toLocaleString();
-    </script>
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F4324d537dbc06f422b34ae131c7b3e14%2Ftenor.gif%3Fitemid%3D7755460&f=1&nofb=1&ipt=f0188f83dc42b93bbecebf4b8575bec72e8433043712d54dd915a716e000faca" alt="">
 </body>
 </html>
